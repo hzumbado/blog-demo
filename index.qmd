@@ -1,0 +1,12 @@
+---
+title: "Hector's blog"
+listing:
+  contents: posts
+  sort: "date asc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: true
+page-layout: full
+title-block-banner: frog2.jpg
+---

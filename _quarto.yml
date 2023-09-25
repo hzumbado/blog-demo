@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  title: "Hector's blog"
+  navbar:
+    background: "#C45508"
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com
+format:
+  html:
+    theme: 
+      dark: quartz
+      light: cosmo
+    css: styles.css
+    highlight-style: espresso
+
+editor: visual
+

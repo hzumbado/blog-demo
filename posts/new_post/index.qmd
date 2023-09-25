@@ -1,0 +1,26 @@
+---
+title: "Renv"
+author: "Hector Zumbado"
+date: "2023-09-21"
+categories: [code]
+---
+
+# Content
+
+This is the first post in a Quarto blog. Welcome!
+
+![](renv_logo.png){fig-align="left" width="4in"}
+
+```{r}
+mtcars |> with(plot(hp, mpg))
+```
+
+::: {.panel-tabset}
+##  Just R project
+
+Hello!
+
+## R project + renv
+
+Hello again!
+:::
