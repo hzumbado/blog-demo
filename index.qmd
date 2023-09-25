@@ -1,5 +1,5 @@
 ---
-title: "Hector's blog"
+title: "Using RStudio projects and Github"
 listing:
   contents: posts
   sort: "date asc"
