@@ -1,5 +1,6 @@
 ---
 title: "Using RStudio projects and Github"
+embed-resources: true
 listing:
   contents: posts
   sort: "date asc"
