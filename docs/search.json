@@ -1,31 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Using RStudio projects and Github",
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
     "section": "",
-    "text": "Github\n\n\n\n\n\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\nSep 21, 2023\n\n\nHector Zumbado\n\n\n\n\n\n\n  \n\n\n\n\nRenv\n\n\n\n\n\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\nSep 21, 2023\n\n\nHector Zumbado\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 21, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSep 24, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "posts/2post/2post.html",
-    "href": "posts/2post/2post.html",
-    "title": "Github",
-    "section": "",
-    "text": "hello again"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Topics",
-    "section": "",
-    "text": "About this blog"
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
     "objectID": "posts/new_post/index.html",
@@ -35,10 +14,45 @@
     "text": "Content\nThis is the first post in a Quarto blog. Welcome!\n\n\n\n\n\n\nmtcars |&gt; with(plot(hp, mpg))\n\n\n\n\n\nJust R projectR project + renv\n\n\nHello!\n\n\nHello again!"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "Introduction",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "In this presentation I will discuss the advantage of using RStudio projects and Github repositories.\n\n\nRStudio is an integrated development environment for R and Python. It was created by and administered by posit.\nOverall, RStudio allows:\n\nDeveoping and testing code\nData visualization\nPackage constructions\nProduction of documents (pdf, .doc, html) based on R markdown or Quarto scripts\nDevelopment of websites\n\nrenv is a dependencies manager that favors isolation of RStudio projects and code reproducibility.\nGithub ‘is a platform and cloud-based service for software development and version control using Git, allowing developers to store and manage their code.’\nAll our RStudio projects can be stored on Github as repositories following the same project structure. To connect RStudio with Github some basic use of terminal and LINUX language is needed.\nGithub Desktop (GD) is a desktop application that facilitates exchange of data between Github and RStudio."
+  },
+  {
+    "objectID": "intro.html#definitions",
+    "href": "intro.html#definitions",
+    "title": "Introduction",
+    "section": "",
+    "text": "RStudio is an integrated development environment for R and Python. It was created by and administered by posit.\nOverall, RStudio allows:\n\nDeveoping and testing code\nData visualization\nPackage constructions\nProduction of documents (pdf, .doc, html) based on R markdown or Quarto scripts\nDevelopment of websites\n\nrenv is a dependencies manager that favors isolation of RStudio projects and code reproducibility.\nGithub ‘is a platform and cloud-based service for software development and version control using Git, allowing developers to store and manage their code.’\nAll our RStudio projects can be stored on Github as repositories following the same project structure. To connect RStudio with Github some basic use of terminal and LINUX language is needed.\nGithub Desktop (GD) is a desktop application that facilitates exchange of data between Github and RStudio."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This demo website will be used to discuss the advantages of creating repositories for your RStudio projects on Github.com"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Using RStudio projects and Github",
+    "section": "",
+    "text": "Github\n\n\n\n\n\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\nSep 21, 2023\n\n\nHector Zumbado\n\n\n\n\n\n\n  \n\n\n\n\nRenv\n\n\n\n\n\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\nSep 21, 2023\n\n\nHector Zumbado\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 21, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSep 24, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2post/2post.html",
+    "href": "posts/2post/2post.html",
+    "title": "Github",
+    "section": "",
+    "text": "hello again"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
   }
 ]

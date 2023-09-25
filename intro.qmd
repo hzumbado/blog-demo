@@ -1,0 +1,33 @@
+---
+title: "Introduction"
+title-block-banner: frog2.jpg
+toc: true
+---
+
+# Overview
+
+In this presentation I will discuss the advantage of using RStudio projects and Github repositories.
+
+## Definitions
+
+[**RStudio**]{.underline} is an integrated development environment for R and Python. It was created by and administered by posit.
+
+Overall, RStudio allows:
+
+1.  Deveoping and testing code
+
+2.  Data visualization
+
+3.  Package constructions
+
+4.  Production of documents (pdf, .doc, html) based on R markdown or Quarto scripts
+
+5.  Development of websites
+
+[**renv**]{.underline} is a dependencies manager that favors isolation of RStudio projects and code reproducibility.
+
+[**Github**]{.underline} 'is a platform and cloud-based service for software development and version control using Git, allowing developers to store and manage their code.'
+
+All our RStudio projects can be stored on Github as repositories following the same project structure. To connect RStudio with Github some basic use of terminal and LINUX language is needed.
+
+[**Github**]{.underline} **[Desktop]{.underline}** (GD) is a desktop application that facilitates exchange of data between Github and RStudio.

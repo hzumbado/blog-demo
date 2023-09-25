@@ -1,12 +1,13 @@
 ---
-title: "Topics"
-image: profile.jpg
+title: "About"
+image: gitlogo.png
+title-block-banner: frog2.jpg
 about:
   template: jolla
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com
+    - icon: envelope
+      text: Email
+      href: zumbadohector@gmail.com
     - icon: facebook
       text: Facebook
       href: https://linkedin.com
@@ -15,4 +16,4 @@ about:
       href: https://hzumbado.github.io
 ---
 
-About this blog
+This demo website will be used to discuss the advantages of creating repositories for your [RStudio](https://posit.co/) projects on [Github.com](https://github.com)
