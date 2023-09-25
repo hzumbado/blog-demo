@@ -15,7 +15,7 @@ In this presentation I will discuss the advantage of using RStudio projects and 
 
 <div>
 
-![](rstudio.jpg){fig-align="center" width="3in"}
+![](rstudio.svg){fig-align="center" width="3in"}
 
 </div>
 
