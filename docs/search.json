@@ -32,7 +32,7 @@
     "href": "index.html",
     "title": "Using RStudio projects and Github",
     "section": "",
-    "text": "RStudio projects\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\nSep 20, 2023\n\n\nHector Zumbado-Ulate\n\n\n\n\n\n\n  \n\n\n\n\nGithub\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 25, 2023\n\n\nHector Zumbado\n\n\n\n\n\n\nNo matching items"
+    "text": "RStudio projects\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\nSep 20, 2023\n\n\nHector Zumbado-Ulate\n\n\n\n\n\n\n  \n\n\n\n\nRenv\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 21, 2023\n\n\nHector Zumbado-Ulate\n\n\n\n\n\n\n  \n\n\n\n\nGithub\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 25, 2023\n\n\nHector Zumbado\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/github/index.html",
@@ -75,5 +75,19 @@
     "title": "RStudio projects",
     "section": "",
     "text": "R projects favor data reproducibility by organizing all files from a project in the same main folder.\nThe project folders should have a clear organization following a publication structure:\nI recommend creating an or fork this repository to your github account. If you start a new project please run the following code to create the file organization\n\nData (raw, pre-processed, processed, shapefiles, rasters, etc.)\nOutput (figures, tables, models)\nManuscript\nOther (supplementary materials).\n\nWe will a few ways to start a new project\n\nRStudio ProjectRStudio Projects with renvRStudio Projects with git\n\n\n1- Creates a separate project from the main RStudio\n2- Improves file management\n\n\n1- Isolates project by managing packages and dependencies\n2- Protect project from packages changes/deprecation\n3- Favors collaboration and reproducibility\n\n\n1- Creates a free repository for our project\n2- Protects project from collapse by creating restoring points (commitment)\n\n\n\nAlthough there are many ways to organize a folder (explorer, github, RStudio console, bash file), an easy way is to create/use a generic code for all your projects\n\nfolders &lt;- c(\"data/raw\",\n             \"data/processed\",\n             \"data/shapefiles\",\n             \"scripts\",\n             \"scripts/models\",\n             \"output/figures\",\n             \"output/tables\",\n             \"output/models\")\n\nsapply(folders,\n       FUN = dir.create,\n       recursive = TRUE)"
+  },
+  {
+    "objectID": "posts/renv_r/renv.html",
+    "href": "posts/renv_r/renv.html",
+    "title": "Renv",
+    "section": "",
+    "text": "renv::init(): Initialize renv. After downloading or starting a project\nrenv::restore(): When you open someone’s project\nrenv::install(): To install a package. Accepts specific versions\nrenv::status(): Check package status\nrenv::snapshot(): Takes a snapshot of installed packages"
+  },
+  {
+    "objectID": "posts/renv_r/renv.html#main-functions",
+    "href": "posts/renv_r/renv.html#main-functions",
+    "title": "Renv",
+    "section": "",
+    "text": "renv::init(): Initialize renv. After downloading or starting a project\nrenv::restore(): When you open someone’s project\nrenv::install(): To install a package. Accepts specific versions\nrenv::status(): Check package status\nrenv::snapshot(): Takes a snapshot of installed packages"
   }
 ]

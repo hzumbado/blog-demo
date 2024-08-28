@@ -39,20 +39,17 @@ Overall, RStudio allows:
 
 `install.packages('renv')`
 
-- Removes all unwanted/unnecessary packages
+-   Removes all unwanted/unnecessary packages
 
-- Automatically detects and install needed dependencies
+-   Automatically detects and install needed dependencies
 
-- Installation occurs only once (creates relative paths)
+-   Installation occurs only once (creates relative paths)
 
-- Avoids continuous package updates
+-   Avoids continuous package updates
 
-- Prevents code breaking 
+-   Prevents code breaking
 
-- Permanent functionality
-
-
-
+-   Permanent functionality
 
 [**Github**]{.underline} 'is a platform and cloud-based service for software development and version control using Git, allowing developers to store and manage their code.'
 

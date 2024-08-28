@@ -31,5 +31,8 @@
   },
   "posts/Rproject/r_proj.qmd": {
     "r_proj.html": "708431c2"
+  },
+  "posts/renv_r/renv.qmd": {
+    "renv.html": "8efe5b7f"
   }
 }
