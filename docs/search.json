@@ -11,14 +11,14 @@
     "href": "intro.html",
     "title": "Introduction",
     "section": "",
-    "text": "In this presentation I will discuss the advantage of using RStudio projects and Github repositories.\n\n\nRStudio is an integrated development environment for R and Python. It was created by and administered by posit.\n\n\n\n\n\n\n\nOverall, RStudio allows:\n\nDeveloping and testing code\nData visualization\nPackage constructions\nProduction of documents (pdf, .doc, html) based on R markdown or Quarto scripts\nDevelopment of websites\n\nrenv is a dependencies manager that favors isolation of RStudio projects and code reproducibility.\n\n\n\n\n\n\n\n\ninstall.packages('renv')\n\nRemoves all unwanted/unnecessary packages\nAutomatically detects and install needed dependencies\nInstallation occurs only once (creates relative paths)\nAvoids continuous package updates\nPrevents code breaking\nPermanent functionality\n\nGithub ‘is a platform and cloud-based service for software development and version control using Git, allowing developers to store and manage their code.’\n\n\n\n\n\n\n\nAll our RStudio projects can be stored on Github as repositories following the same project structure. To connect RStudio with Github some basic use of terminal and LINUX language is needed.\nGithub Desktop (GD) is a desktop application that facilitates exchange of data between Github and RStudio."
+    "text": "In this presentation I will discuss the advantage of using RStudio projects and Github repositories.\n\n\nRStudio is an integrated development environment for R and Python. It was created by and administered by posit.\n\n\n\n\n\n\n\nOverall, RStudio allows:\n\nDeveloping and testing code\nData visualization\nPackage constructions\nProduction of documents (pdf, .doc, html) based on R markdown or Quarto scripts\nDevelopment of websites\n\nrenv is a dependencies manager that favors isolation of RStudio projects and code reproducibility.\n\n\n\n\n\n\n\ninstall.packages('renv')\n\nRemoves all unwanted/unnecessary packages\nAutomatically detects and install needed dependencies\nInstallation occurs only once (creates relative paths)\nAvoids continuous package updates\nPrevents code breaking\nPermanent functionality\n\nGithub ‘is a platform and cloud-based service for software development and version control using Git, allowing developers to store and manage their code.’\n\n\n\n\n\n\n\nAll our RStudio projects can be stored on Github as repositories following the same project structure. To connect RStudio with Github some basic use of terminal and LINUX language is needed.\nGithub Desktop (GD) is a desktop application that facilitates exchange of data between Github and RStudio."
   },
   {
     "objectID": "intro.html#definitions",
     "href": "intro.html#definitions",
     "title": "Introduction",
     "section": "",
-    "text": "RStudio is an integrated development environment for R and Python. It was created by and administered by posit.\n\n\n\n\n\n\n\nOverall, RStudio allows:\n\nDeveloping and testing code\nData visualization\nPackage constructions\nProduction of documents (pdf, .doc, html) based on R markdown or Quarto scripts\nDevelopment of websites\n\nrenv is a dependencies manager that favors isolation of RStudio projects and code reproducibility."
+    "text": "RStudio is an integrated development environment for R and Python. It was created by and administered by posit.\n\n\n\n\n\n\n\nOverall, RStudio allows:\n\nDeveloping and testing code\nData visualization\nPackage constructions\nProduction of documents (pdf, .doc, html) based on R markdown or Quarto scripts\nDevelopment of websites\n\nrenv is a dependencies manager that favors isolation of RStudio projects and code reproducibility.\n\n\n\n\n\n\n\ninstall.packages('renv')\n\nRemoves all unwanted/unnecessary packages\nAutomatically detects and install needed dependencies\nInstallation occurs only once (creates relative paths)\nAvoids continuous package updates\nPrevents code breaking\nPermanent functionality\n\nGithub ‘is a platform and cloud-based service for software development and version control using Git, allowing developers to store and manage their code.’\n\n\n\n\n\n\n\nAll our RStudio projects can be stored on Github as repositories following the same project structure. To connect RStudio with Github some basic use of terminal and LINUX language is needed.\nGithub Desktop (GD) is a desktop application that facilitates exchange of data between Github and RStudio."
   },
   {
     "objectID": "about.html",
@@ -32,7 +32,7 @@
     "href": "index.html",
     "title": "Using RStudio projects and Github",
     "section": "",
-    "text": "Github\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 21, 2023\n\n\nHector Zumbado\n\n\n\n\n\n\n  \n\n\n\n\nRenv\n\n\n\n\n\n\n\n\n\n\n\n\nSep 21, 2023\n\n\nHector Zumbado\n\n\n\n\n\n\n  \n\n\n\n\nRStudio projects\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\nSep 24, 2023\n\n\nHector Zumbado-Ulate\n\n\n\n\n\n\nNo matching items"
+    "text": "Github\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 21, 2023\n\n\nHector Zumbado\n\n\n\n\n\n\n  \n\n\n\n\nRenv\n\n\n\n\n\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\nSep 21, 2023\n\n\nHector Zumbado\n\n\n\n\n\n\n  \n\n\n\n\nRStudio projects\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\nSep 24, 2023\n\n\nHector Zumbado-Ulate\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/github/index.html",
@@ -54,5 +54,19 @@
     "title": "Introduction",
     "section": "",
     "text": "install.packages('renv')\n\nRemoves all unwanted/unnecessary packages\nAutomatically detects and install needed dependencies\nInstallation occurs only once (creates relative paths)\nAvoids continuous package updates\nPrevents code breaking\nPermanent functionality\n\nGithub ‘is a platform and cloud-based service for software development and version control using Git, allowing developers to store and manage their code.’\n\n\n\n\n\n\n\nAll our RStudio projects can be stored on Github as repositories following the same project structure. To connect RStudio with Github some basic use of terminal and LINUX language is needed.\nGithub Desktop (GD) is a desktop application that facilitates exchange of data between Github and RStudio."
+  },
+  {
+    "objectID": "posts/renv2/renv.html",
+    "href": "posts/renv2/renv.html",
+    "title": "Renv",
+    "section": "",
+    "text": "renv::init(): Initialize renv. After downloading or starting a project\nrenv::restore(): When you open someone’s project\nrenv::install(): To install a package. Accepts specific versions\nrenv::status(): Check package status\nrenv::snapshot(): Takes a snapshot of installed packages"
+  },
+  {
+    "objectID": "posts/renv2/renv.html#main-functions",
+    "href": "posts/renv2/renv.html#main-functions",
+    "title": "Renv",
+    "section": "",
+    "text": "renv::init(): Initialize renv. After downloading or starting a project\nrenv::restore(): When you open someone’s project\nrenv::install(): To install a package. Accepts specific versions\nrenv::status(): Check package status\nrenv::snapshot(): Takes a snapshot of installed packages"
   }
 ]

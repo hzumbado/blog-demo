@@ -3,4 +3,17 @@ title: "Renv"
 embed-resources: true
 author: "Hector Zumbado"
 date: "2023-09-21"
+categories: [code]
 ---
+
+## Main functions
+
+`renv::init()`: Initialize renv. After downloading or starting a project
+
+`renv::restore()`: When you open someone's project
+
+`renv::install()`: To install a package. Accepts specific versions
+
+`renv::status()`: Check package status
+
+`renv::snapshot()`: Takes a snapshot of installed packages

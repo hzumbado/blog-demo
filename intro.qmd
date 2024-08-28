@@ -35,7 +35,7 @@ Overall, RStudio allows:
 
 ![](renv.svg){fig-align="center" width="3in"}
 
-## Main functions
+### Main functions
 
 `install.packages('renv')`
 
@@ -50,6 +50,7 @@ Overall, RStudio allows:
 - Prevents code breaking 
 
 - Permanent functionality
+
 
 
 
