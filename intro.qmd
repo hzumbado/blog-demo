@@ -21,7 +21,7 @@ In this presentation I will discuss the advantage of using RStudio projects and 
 
 Overall, RStudio allows:
 
-1.  Deveoping and testing code
+1.  Developing and testing code
 
 2.  Data visualization
 
@@ -35,6 +35,24 @@ Overall, RStudio allows:
 
 ![](renv.svg){fig-align="center" width="3in"}
 
+## Main functions
+
+`install.packages('renv')`
+
+- Removes all unwanted/unnecessary packages
+
+- Automatically detects and install needed dependencies
+
+- Installation occurs only once (creates relative paths)
+
+- Avoids continuous package updates
+
+- Prevents code breaking 
+
+- Permanent functionality
+
+
+
 [**Github**]{.underline} 'is a platform and cloud-based service for software development and version control using Git, allowing developers to store and manage their code.'
 
 <div>
@@ -46,3 +64,5 @@ Overall, RStudio allows:
 All our RStudio projects can be stored on Github as repositories following the same project structure. To connect RStudio with Github some basic use of terminal and LINUX language is needed.
 
 [**Github**]{.underline} [**Desktop**]{.underline} (GD) is a desktop application that facilitates exchange of data between Github and RStudio.
+
+[![](Gd.svg){fig-align="center" width="3in"}](https://desktop.github.com/)

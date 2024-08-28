@@ -19,5 +19,14 @@
   },
   "intro.qmd": {
     "intro.html": "d879449d"
+  },
+  "posts/github/index.qmd": {
+    "index.html": "56427daa"
+  },
+  "posts/Rproject/index.qmd": {
+    "index.html": "bc3f14a1"
+  },
+  "posts/renv2/renv.qmd": {
+    "renv.html": "946807bd"
   }
 }

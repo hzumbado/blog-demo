@@ -1,5 +1,6 @@
 ---
 title: "About"
+embed-resources: true
 image: gitlogo.png
 title-block-banner: frog2.jpg
 about:

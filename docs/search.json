@@ -1,31 +1,24 @@
 [
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "posts/Rproject/index.html",
+    "href": "posts/Rproject/index.html",
+    "title": "RStudio projects",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "posts/new_post/index.html",
-    "href": "posts/new_post/index.html",
-    "title": "Renv",
-    "section": "",
-    "text": "Content\nThis is the first post in a Quarto blog. Welcome!\n\n\n\n\n\n\nmtcars |&gt; with(plot(hp, mpg))\n\n\n\n\n\nJust R projectR project + renv\n\n\nHello!\n\n\nHello again!"
+    "text": "R projects favor data reproducibility by organizing all files from a project in the same main folder.\nThe project folders should have a clear organization following a publication structure:\nI recommend creating an or fork this repository to your github account. If you start a new project please run the following code to create the file organization\n\nData (raw, pre-processed, processed, shapefiles, rasters, etc.)\nOutput (figures, tables, models)\nManuscript\nOther (supplementary materials).\n\nWe will a few ways to start a new project\n\nRStudio ProjectRStudio Projects with renvRStudio Projects with git\n\n\n1- Creates a separate project from the main RStudio\n2- Improves file management\n\n\n1- Isolates project by managing packages and dependencies\n2- Protect project from packages changes/deprecation\n3- Favors collaboration and reproducibility\n\n\n1- Creates a free repository for our project\n2- Protects project from collapse by creating restoring points (commitment)\n\n\n\nAlthough there are many ways to organize a folder (explorer, github, RStudio console, bash file), an easy way is to create/use a generic code for all your projects\n\nfolders &lt;- c(\"data/raw\",\n             \"data/processed\",\n             \"data/shapefiles\",\n             \"scripts\",\n             \"scripts/models\",\n             \"output/figures\",\n             \"output/tables\",\n             \"output/models\")\n\nsapply(folders,\n       FUN = dir.create,\n       recursive = TRUE)"
   },
   {
     "objectID": "intro.html",
     "href": "intro.html",
     "title": "Introduction",
     "section": "",
-    "text": "In this presentation I will discuss the advantage of using RStudio projects and Github repositories.\n\n\nRStudio is an integrated development environment for R and Python. It was created by and administered by posit.\n\n\n\n\n\n\n\nOverall, RStudio allows:\n\nDeveoping and testing code\nData visualization\nPackage constructions\nProduction of documents (pdf, .doc, html) based on R markdown or Quarto scripts\nDevelopment of websites\n\nrenv is a dependencies manager that favors isolation of RStudio projects and code reproducibility.\n\n\n\n\n\nGithub ‘is a platform and cloud-based service for software development and version control using Git, allowing developers to store and manage their code.’\n\n\n\n\n\n\n\nAll our RStudio projects can be stored on Github as repositories following the same project structure. To connect RStudio with Github some basic use of terminal and LINUX language is needed.\nGithub Desktop (GD) is a desktop application that facilitates exchange of data between Github and RStudio."
+    "text": "In this presentation I will discuss the advantage of using RStudio projects and Github repositories.\n\n\nRStudio is an integrated development environment for R and Python. It was created by and administered by posit.\n\n\n\n\n\n\n\nOverall, RStudio allows:\n\nDeveloping and testing code\nData visualization\nPackage constructions\nProduction of documents (pdf, .doc, html) based on R markdown or Quarto scripts\nDevelopment of websites\n\nrenv is a dependencies manager that favors isolation of RStudio projects and code reproducibility.\n\n\n\n\n\n\n\n\ninstall.packages('renv')\n\nRemoves all unneeded packages\nAvoids continuous package updates\nPrevents code breaking\nPermanent functionality\n\nGithub ‘is a platform and cloud-based service for software development and version control using Git, allowing developers to store and manage their code.’\n\n\n\n\n\n\n\nAll our RStudio projects can be stored on Github as repositories following the same project structure. To connect RStudio with Github some basic use of terminal and LINUX language is needed.\nGithub Desktop (GD) is a desktop application that facilitates exchange of data between Github and RStudio."
   },
   {
     "objectID": "intro.html#definitions",
     "href": "intro.html#definitions",
     "title": "Introduction",
     "section": "",
-    "text": "RStudio is an integrated development environment for R and Python. It was created by and administered by posit.\n\n\n\n\n\n\n\nOverall, RStudio allows:\n\nDeveoping and testing code\nData visualization\nPackage constructions\nProduction of documents (pdf, .doc, html) based on R markdown or Quarto scripts\nDevelopment of websites\n\nrenv is a dependencies manager that favors isolation of RStudio projects and code reproducibility.\n\n\n\n\n\nGithub ‘is a platform and cloud-based service for software development and version control using Git, allowing developers to store and manage their code.’\n\n\n\n\n\n\n\nAll our RStudio projects can be stored on Github as repositories following the same project structure. To connect RStudio with Github some basic use of terminal and LINUX language is needed.\nGithub Desktop (GD) is a desktop application that facilitates exchange of data between Github and RStudio."
+    "text": "RStudio is an integrated development environment for R and Python. It was created by and administered by posit.\n\n\n\n\n\n\n\nOverall, RStudio allows:\n\nDeveloping and testing code\nData visualization\nPackage constructions\nProduction of documents (pdf, .doc, html) based on R markdown or Quarto scripts\nDevelopment of websites\n\nrenv is a dependencies manager that favors isolation of RStudio projects and code reproducibility."
   },
   {
     "objectID": "about.html",
@@ -39,20 +32,27 @@
     "href": "index.html",
     "title": "Using RStudio projects and Github",
     "section": "",
-    "text": "Github\n\n\n\n\n\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\nSep 21, 2023\n\n\nHector Zumbado\n\n\n\n\n\n\n  \n\n\n\n\nRenv\n\n\n\n\n\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\nSep 21, 2023\n\n\nHector Zumbado\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 21, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSep 24, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\nNo matching items"
+    "text": "Github\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 21, 2023\n\n\nHector Zumbado\n\n\n\n\n\n\n  \n\n\n\n\nRenv\n\n\n\n\n\n\n\n\n\n\n\n\nSep 21, 2023\n\n\nHector Zumbado\n\n\n\n\n\n\n  \n\n\n\n\nRStudio projects\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\nSep 24, 2023\n\n\nHector Zumbado-Ulate\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/2post/2post.html",
-    "href": "posts/2post/2post.html",
+    "objectID": "posts/github/index.html",
+    "href": "posts/github/index.html",
     "title": "Github",
     "section": "",
-    "text": "hello again"
+    "text": "This is the first post in a Quarto blog. Welcome!\n\n\n\n\nSome text that is very long and that should take most of the column space.\n\nSome other text that should be below the first paragraph."
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "posts/github/index.html#a-title",
+    "href": "posts/github/index.html#a-title",
+    "title": "Github",
+    "section": "A title",
+    "text": "A title\n\n\n\n\nSome text that is very long and that should take most of the column space.\n\nSome other text that should be below the first paragraph."
+  },
+  {
+    "objectID": "intro.html#main-functions",
+    "href": "intro.html#main-functions",
+    "title": "Introduction",
     "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+    "text": "install.packages('renv')\n\nRemoves all unneeded packages\nAvoids continuous package updates\nPrevents code breaking\nPermanent functionality\n\nGithub ‘is a platform and cloud-based service for software development and version control using Git, allowing developers to store and manage their code.’\n\n\n\n\n\n\n\nAll our RStudio projects can be stored on Github as repositories following the same project structure. To connect RStudio with Github some basic use of terminal and LINUX language is needed.\nGithub Desktop (GD) is a desktop application that facilitates exchange of data between Github and RStudio."
   }
 ]

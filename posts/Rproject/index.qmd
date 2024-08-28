@@ -1,0 +1,67 @@
+---
+title: "RStudio projects"
+embed-resources: true
+author: "Hector Zumbado-Ulate"
+date: "2023-09-24"
+categories: [news, code]
+image: "image.jpg"
+---
+
+R projects favor data reproducibility by organizing all files from a project in the same main folder.
+
+The project folders should have a clear organization following a publication structure:
+
+I recommend creating an or fork this repository to your github account. If you start a new project please run the following code to create the file organization
+
+1.  Data (raw, pre-processed, processed, shapefiles, rasters, etc.)
+
+2.  Output (figures, tables, models)
+
+3.  Manuscript
+
+4.  Other (supplementary materials).
+
+We will a few ways to start a new project
+
+::: panel-tabset
+## RStudio Project
+
+1- Creates a separate project from the main RStudio
+
+2- Improves file management
+
+## RStudio Projects with renv
+
+1- Isolates project by managing packages and dependencies
+
+2- Protect project from packages changes/deprecation
+
+3- Favors collaboration and reproducibility
+
+## RStudio Projects with git
+
+1- Creates a free repository for our project
+
+2- Protects project from collapse by creating restoring points (commitment)
+:::
+
+Although there are many ways to organize a folder (explorer, github, RStudio console, bash file), an easy way is to create/use a generic code for all your projects
+
+```{r}
+#| label: create structure
+#| include: true
+#| eval: false
+
+folders <- c("data/raw",
+             "data/processed",
+             "data/shapefiles",
+             "scripts",
+             "scripts/models",
+             "output/figures",
+             "output/tables",
+             "output/models")
+
+sapply(folders,
+       FUN = dir.create,
+       recursive = TRUE)
+```
