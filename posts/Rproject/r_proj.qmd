@@ -2,7 +2,7 @@
 title: "RStudio projects"
 embed-resources: true
 author: "Hector Zumbado-Ulate"
-date: "2023-09-20"
+date: "2023-09-20" 
 categories: [news, code]
 image: "image.jpg"
 ---

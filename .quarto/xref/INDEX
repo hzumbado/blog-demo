@@ -28,5 +28,8 @@
   },
   "posts/renv2/renv.qmd": {
     "renv.html": "946807bd"
+  },
+  "posts/Rproject/r_proj.qmd": {
+    "r_proj.html": "708431c2"
   }
 }

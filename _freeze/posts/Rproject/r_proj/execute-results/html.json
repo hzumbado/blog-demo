@@ -1,0 +1,14 @@
+{
+  "hash": "c86ed397d9e08dab9e011198cf444243",
+  "result": {
+    "markdown": "---\ntitle: \"RStudio projects\"\nembed-resources: true\nauthor: \"Hector Zumbado-Ulate\"\ndate: \"2023-09-20\" \ncategories: [news, code]\nimage: \"image.jpg\"\n---\n\n\nR projects favor data reproducibility by organizing all files from a project in the same main folder.\n\nThe project folders should have a clear organization following a publication structure:\n\nI recommend creating an or fork this repository to your github account. If you start a new project please run the following code to create the file organization\n\n1.  Data (raw, pre-processed, processed, shapefiles, rasters, etc.)\n\n2.  Output (figures, tables, models)\n\n3.  Manuscript\n\n4.  Other (supplementary materials).\n\nWe will a few ways to start a new project\n\n::: panel-tabset\n## RStudio Project\n\n1- Creates a separate project from the main RStudio\n\n2- Improves file management\n\n## RStudio Projects with renv\n\n1- Isolates project by managing packages and dependencies\n\n2- Protect project from packages changes/deprecation\n\n3- Favors collaboration and reproducibility\n\n## RStudio Projects with git\n\n1- Creates a free repository for our project\n\n2- Protects project from collapse by creating restoring points (commitment)\n:::\n\nAlthough there are many ways to organize a folder (explorer, github, RStudio console, bash file), an easy way is to create/use a generic code for all your projects\n\n\n::: {.cell}\n\n```{.r .cell-code}\nfolders <- c(\"data/raw\",\n             \"data/processed\",\n             \"data/shapefiles\",\n             \"scripts\",\n             \"scripts/models\",\n             \"output/figures\",\n             \"output/tables\",\n             \"output/models\")\n\nsapply(folders,\n       FUN = dir.create,\n       recursive = TRUE)\n```\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
