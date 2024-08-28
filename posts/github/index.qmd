@@ -10,17 +10,14 @@ This is the first post in a Quarto blog. Welcome!
 
 ::: columns
 ::: {.column width="40%"}
-
 ![](/gitlogo.png){width="3in"}
 :::
 
 ::: {.column width="60%"}
-
 Some text that is very long and that should take most of the column space.
 
 <br>
 
 Some other text that should be below the first paragraph.
-
 :::
 :::
